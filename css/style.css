@@ -10,6 +10,7 @@
     /* color  */
     --bg:#111010;
     --bgb:#0C8BFD;
+    --bgbr:#1e1e1e;
 
     /* font-family  */
     --ffp:'Poppins',
@@ -40,10 +41,19 @@ a{
 }
 
 h1{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 700;
 }
 
+h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 1.2rem;
+    color: #000;
+}
 
 /* ================
     Header
@@ -90,4 +100,107 @@ h1{
     color: #fff;
     font-weight: 600;
     font-size: 1rem;
+}
+
+
+/* ================
+    Multiple Logo's
+================ */
+
+.multi-logo{
+    background-color: var(--bgbr);
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2.5em 0;
+    /* border: 2px solid #fff; */
+}
+
+
+/* =====================
+    Best Service Section
+====================== */
+.service{
+    background-color: #fff;
+    padding-top: 6em;
+}
+
+
+.best-service{
+    color: #000;
+    text-align: center;
+}
+
+.best-service-para{
+    color: var(--bgbr);
+    opacity: 0.6;
+    padding-top: 1em;
+    text-align: center;
+}
+
+/* ------- service cards -------- */
+.service-cards{
+    border: 2px solid pink;
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.service-card-left{
+    border: 1px solid #000;
+    border-radius: 20px;
+    width: 17vw;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.service-card-center{
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background-color: #000;
+    width: 17vw;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.service-card-right{
+    border: 1px solid #000;
+    border-radius: 20px;
+    width: 17vw;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+
+.service-card-img{
+    padding-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.service-card-header{
+    margin-bottom: 1em;
+}
+
+.service-card-para{
+    color: var(--bgbr);
+    opacity: 0.8;
+    line-height: 1.3;
+}
+
+.center-h3{
+    color: #fff;
+}
+
+.center-para{
+    color: #fff;
+    opacity: 0.5;
+    line-height: 1.3;
+}
+
+/* ------- We are ready --------*/
+
+.dropdown-title{
+    color: #000;
+    font-size: 2.5rem;
+    margin-left: 2em;
 }
