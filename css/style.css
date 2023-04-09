@@ -46,7 +46,7 @@ h1{
 }
 
 h2{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 500;
 }
 
@@ -104,6 +104,60 @@ h3{
 
 
 /* ================
+    Hero Section
+================ */
+.hero{
+    display: flex;
+    margin: 5em 0 5em 5em;
+}
+
+.hero-left{
+    width: 50%;
+}
+
+.hero-right{
+    width:50%
+}
+
+.hero-title{
+    font-size: 4.8rem;
+}
+
+.cheapest{
+    color: var(--bgb);   
+}
+
+.hero-subtitle{
+    margin-bottom: 5em;
+    margin-top: 1.6em;
+    opacity: 0.4;
+    /* letter-spacing: 1px; */
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.hero-get-started,
+.hero-try-start{
+    padding: 0.8rem 2rem;
+    border-radius: 25px;
+    max-width: 35%;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.hero-get-started{
+    background-color: var(--bgb);
+    margin-right: 1.5em;
+}
+
+.hero-try-start{
+    border: 1px solid #fff;
+    background-color: var(--bg);
+}
+
+/* ================
     Multiple Logo's
 ================ */
 
@@ -129,12 +183,15 @@ h3{
 .best-service{
     color: #000;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 .best-service-para{
     color: var(--bgbr);
     opacity: 0.6;
+    line-height: 1.6;
     padding-top: 1em;
+    font-size: 1.3em;
     text-align: center;
 }
 
@@ -142,16 +199,21 @@ h3{
 .service-cards{
     border: 2px solid pink;
     margin-top: 3em;
+    min-height: 40vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    
 }
 
 .service-card-left{
     border: 1px solid #000;
     border-radius: 20px;
     width: 17vw;
+    height: 30vh;
+    margin-top: 4em;
     text-align: center;
     padding-bottom: 2em;
+    margin-right: 3em;
 }
 
 .service-card-center{
@@ -159,14 +221,18 @@ h3{
     border-radius: 20px;
     background-color: #000;
     width: 17vw;
+    height: 30vh;
     text-align: center;
     padding-bottom: 2em;
+    margin-right: 3em;
 }
 
 .service-card-right{
     border: 1px solid #000;
     border-radius: 20px;
+    height: 30vh;
     width: 17vw;
+    margin-top: 4em;
     text-align: center;
     padding-bottom: 2em;
 }
@@ -204,3 +270,8 @@ h3{
     font-size: 2.5rem;
     margin-left: 2em;
 }
+
+/* =====================
+    Hosting your website
+====================== */
+
