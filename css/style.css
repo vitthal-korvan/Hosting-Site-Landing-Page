@@ -64,12 +64,17 @@ h3{
     justify-content: space-between;
     /* border: 2px solid #F637EC; */
     font-size: 0.9rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: var(--bgbr);
 }
 
 .logo{
     /* border: 2px solid #fff; */
     margin-top: 1.25em;
-    margin-left: 6em;
+    margin-left: 8em;
 }
 
 .menu-list,
@@ -108,7 +113,7 @@ h3{
 ================ */
 .hero{
     display: flex;
-    margin: 5em 0 5em 5em;
+    margin: 5em 0 5em 8em;
 }
 
 .hero-left{
@@ -120,7 +125,7 @@ h3{
 }
 
 .hero-title{
-    font-size: 4.8rem;
+    font-size: 4.4rem;
 }
 
 .cheapest{
@@ -163,7 +168,6 @@ h3{
 
 .multi-logo{
     background-color: var(--bgbr);
-    opacity: 0.8;
     display: flex;
     justify-content: space-evenly;
     padding: 2.5em 0;
@@ -197,60 +201,59 @@ h3{
 
 /* ------- service cards -------- */
 .service-cards{
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
     margin-top: 3em;
-    min-height: 40vh;
+    min-height: 45vh;
     display: flex;
     justify-content: center;
     
 }
 
-.service-card-left{
-    border: 1px solid #000;
+.service-card-center,
+.service-card-left,
+.service-card-right{
     border-radius: 20px;
-    width: 17vw;
-    height: 30vh;
-    margin-top: 4em;
+    width: 23vw;
+    height: 40vh;
     text-align: center;
     padding-bottom: 2em;
-    margin-right: 3em;
+}
+
+.service-card-left,
+.service-card-right{
+    margin-top: 4em;
+    border: 2px solid #d1d1d1;
+}
+
+
+.service-card-left{
+    margin-right: 6em;
 }
 
 .service-card-center{
-    border: 1px solid #fff;
-    border-radius: 20px;
+    /* border: 1px solid #fff; */
     background-color: #000;
-    width: 17vw;
-    height: 30vh;
-    text-align: center;
-    padding-bottom: 2em;
-    margin-right: 3em;
-}
-
-.service-card-right{
-    border: 1px solid #000;
-    border-radius: 20px;
-    height: 30vh;
-    width: 17vw;
-    margin-top: 4em;
-    text-align: center;
-    padding-bottom: 2em;
+    margin-right: 6em;
+    box-shadow: 5px 10px #e0e0e0;
 }
 
 
 .service-card-img{
-    padding-top: 1em;
-    margin-bottom: 1.5em;
+    padding-top: 1.6em;
+    margin-bottom: 1.8em;
+    height: 110px;
 }
 
 .service-card-header{
-    margin-bottom: 1em;
+    margin-bottom: 1.8em;
+    font-size: 1.6em;
 }
 
 .service-card-para{
     color: var(--bgbr);
     opacity: 0.8;
     line-height: 1.3;
+    font-size: 1.1em;
 }
 
 .center-h3{
@@ -265,13 +268,49 @@ h3{
 
 /* ------- We are ready --------*/
 
+.hero-2{
+    margin-top: 0em;
+}
+
 .dropdown-title{
     color: #000;
-    font-size: 2.5rem;
-    margin-left: 2em;
+    margin-left: 3em;
+    letter-spacing: 0.7px;
 }
+
+
 
 /* =====================
     Hosting your website
 ====================== */
 
+.hosting-web{
+    display: flex;
+    justify-content: center;
+}
+
+.hosting-web-title{
+    margin-top: 1.8em;
+    color: #fff;
+    text-align: center;
+}
+
+.arrow-left,
+.arrow-right{
+    margin-top: 10em;
+}
+
+.arrow-left{
+    margin-right: 9em;
+}
+
+.arrow-right{
+    margin-left: 9em;
+}
+
+/* Splash Cards */
+
+.splash-cards{
+    display: flex;
+    justify-content: center;
+}
