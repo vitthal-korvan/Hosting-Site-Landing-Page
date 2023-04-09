@@ -269,15 +269,55 @@ h3{
 /* ------- We are ready --------*/
 
 .hero-2{
-    margin-top: 0em;
+   margin: 5em 0em 0em 0em;
 }
 
 .dropdown-title{
     color: #000;
     margin-left: 3em;
+    margin-bottom: 1.5em;
     letter-spacing: 0.7px;
 }
 
+.main-features{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-features-right{
+    background-color: #000;
+}
+
+.features-active{
+    color: #fff;
+    background-color: #0C8BFD;
+}
+
+.features{
+    color: #000;
+}
+
+.features,
+.features-active{
+    font-size: 1.5em;
+    padding: 1em 3em;
+    border-radius: 20px;
+    border: 1px solid #1e1e1e;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.features-img{
+    margin-left: 7em;
+}
+
+.sub-features,
+.sub-features-active{
+    padding: 1em 3em;
+    border-radius: 20px;
+    border: 1px solid #1e1e1e;
+    display: block;
+}
 
 
 /* =====================
