@@ -40,6 +40,10 @@ a{
     color: var(--bgw);
 }
 
+a:hover{
+    background-color: #F637EC;
+}
+
 h1{
     font-size: 3.5rem;
     font-weight: 700;
@@ -214,7 +218,7 @@ h3{
 .service-card-right{
     border-radius: 20px;
     width: 23vw;
-    height: 40vh;
+    height: 42vh;
     text-align: center;
     padding-bottom: 2em;
 }
@@ -269,7 +273,7 @@ h3{
 /* ------- We are ready --------*/
 
 .hero-2{
-   margin: 5em 0em 0em 0em;
+   margin: 10em 0em 0em 0em;
 }
 
 .dropdown-title{
@@ -283,10 +287,14 @@ h3{
     display: flex;
     justify-content: space-around;
 }
-
+.main-features-left,
+.main-features-right{
+    width: 40vw;
+}
 .main-features-right{
     background-color: #000;
 }
+
 
 .features-active{
     color: #fff;
@@ -300,15 +308,17 @@ h3{
 .features,
 .features-active{
     font-size: 1.5em;
+    font-weight: 500;
     padding: 1em 3em;
-    border-radius: 20px;
+    border-radius: 50px;
     border: 1px solid #1e1e1e;
     display: block;
     margin-bottom: 1em;
 }
 
+
 .features-img{
-    margin-left: 7em;
+    margin-left: 8em;
 }
 
 .sub-features,
@@ -324,7 +334,7 @@ h3{
     Hosting your website
 ====================== */
 
-.hosting-web{
+.hosting-web-header{
     display: flex;
     justify-content: center;
 }
@@ -351,6 +361,136 @@ h3{
 /* Splash Cards */
 
 .splash-cards{
+    font-family: var(--ffp);
     display: flex;
+    justify-content: space-evenly;
+    margin-top: 4em;
+}
+
+.splash-cards-left,
+.splash-cards-right{
+    background-color: #fff;
+    color: #000;
+}
+
+.splash-cards-center{
+    background-color: var(--bgb);
+}
+
+.splash-cards-left,
+.splash-cards-center,
+.splash-cards-right{
+    padding: 1em 2em;
+    height: 80vh;
+    width: 23vw;
+    border-radius: 20px;
+    margin-bottom: 4em;
+}
+
+.splash-cards-header{
+    font-size: 2rem;
+}
+
+.splash-cards-doller{
+    padding-top: 0.2em;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.splash-cards-span{
+    font-size: 2rem;
+    opacity: 0.6;
+}
+
+.splash-cards-left > p,
+.splash-cards-center > p,
+.splash-cards-right > p{
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding-bottom: 1em;
+}
+
+.select{
+    background-color: var(--bgb);
+   
+}
+.select-center{
+    background-color: #fff;
+    color: #000;
+}
+
+.select,
+.select-center{
+    padding: 1em 7.4em;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.splash-cards-left > p > img,
+.splash-cards-center > p > img,
+.splash-cards-right > p > img{
+    padding-right: 1em;
+
+}
+
+/* =====================
+    Customer Review
+====================== */
+
+.customer-review{
+    background-color: #fff;
+}
+
+.customer-review-top{
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 4em 9em;
+}
+
+.customer-review-para{
+    opacity: 0.6;
+    padding-top: 1.6em;
+    padding-right: 3em;
+    font-size: 1.2rem;
+}
+
+/* =====================
+    Footer
+====================== */
+
+.sign-up-header{
+    text-align: center;
+    margin: 2em 0em;
+}
+
+.form{
+    background-color: #292828;
+    height: 20vh;
+    margin: 0em 6em 6em 6em;
+    display: flex;
+    align-items: center;
     justify-content: center;
+    border-radius: 20px;
+}
+
+form > input{
+    width: 20vw;
+    height: 6vh;
+    border-radius: 20px;
+    background-color: #3E3D3D;
+}
+
+.hr-tag{
+    margin: 3em 6em;
+    opacity: 0.5;
+}
+
+
+
+/* -------- Footer Logo ---------- */
+
+.footer-logo{
+    margin-left: 6em;
+    margin-bottom: 3em;
 }
