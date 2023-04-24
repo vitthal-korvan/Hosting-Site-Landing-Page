@@ -1,277 +1,522 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="author" content="vitthal-korvan">
-      <!-- Title -->
-      <title>Hosting Site Landing Page</title>
-
-      <!-- Fevicon Icon -->
-      <link rel="icon" type="image/x-icon" href="./assets/Icons/white-tick.svg">
-
-      <!-- Stylesheet -->
-      <link href="./css/style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="vitthal-korvan">
+    <link rel="icon" type="image/x-icon" href="./assets/Icons/signal.svg">
+    <title>Hosting Landing Page</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
 
+    <!-- header  -->
+    <header>
 
-      <!-- Header Navbar -->
+        <div class="header max-width">
+            <!-- logo  -->
+            <img src="./assets/images/Logo.svg" alt="" class="logo">
 
-      
-      <nav class="nav-menu">
-            <img src="./assets/Logo.svg" alt="Logo of the page" class="logo">
-            <div class="nav-menu-center">
-                  <ul class="menu-list">
-                        <li><a href="#">Hosting</a></li>
-                        <li><a href="#">Domain</a></li>
-                        <li><a href="#">Features</a></li>
-                        <li><a href="#">Support</a></li>
-                        <li><a href="#">Community</a></li>
-                  </ul>
-            </div>
-            <a href="#" class="menu-list-right login">
-                  Login
-            </a>
-            
-      </nav>
-
-
-      <!-- Hero Section -->
-
-      <main class="hero">
-            <div class="hero-left">
-                  <h1 class="hero-title">
-                        The best and <span class="cheapest"><i>cheapest</i> </span> hosting<br> for your website
-                  </h1>
-                  <p class="hero-subtitle">Hosting your website here is easy, access is fast, server<br> security is very well maintained, and of course<br> supported by reliable servers.</p>
-                  <a href="#" class="hero-get-started">
-                        Get Started
-                  </a>
-                  <a href="#" class="hero-try-start">
-                        Try Start Free
-                  </a>
-            </div>
-            <div class="hero-right">
-                  <img src="./assets/Illustrations/Group 238502.svg">
+            <!-- navbar  -->
+            <div class="navbar">
+                <ul class="navlinks">
+                    <li><a href="#">Hosting</a></li>
+                    <li><a href="#">Domain</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Community</a></li>
+                </ul>
             </div>
 
-      </main>
+            <!-- button  -->
+            <button class="btn btn-primary">
+                <span>Login</span>
+            </button>
+        </div>
 
-     
-      <!-- Logo Section -->
-      <div class="multi-logo">
-      
-            <img src="./assets/Logo-light.svg" alt="logo of the page" >
-            <img src="./assets/Logo-light.svg" alt="logo of the page" >
-            <img src="./assets/Logo-light.svg" alt="logo of the page" >
-            <img src="./assets/Logo-light.svg" alt="logo of the page" >
-      
-      </div>
+    </header>
 
-
-      <!-- Best Service Section -->
-
-      <div class="service">
-            <div>
-                  <h2 class="best-service">
-                        The best service especially for you
-                  </h2>
-                  <p class="best-service-para">
-                        We will serve you as best we can with the aim of <br>providing satisfaction to you.
-                  </p>
+    <main>
+        <section class="hero">
+            <div class="container max-width">
+                <div class="text">
+                    <h1>The best and <span>cheapest</span> hosting for your website</h1>
+                    <p>Hosting your website here is easy, access is fast, server security is very well maintained, and
+                        of course supported by reliable servers.</p>
+                    <div class="btn-groups">
+                        <button class="btn btn-primary">
+                            Get Started
+                        </button>
+                        <button class="btn btn-secondary">
+                            Try Start Free
+                        </button>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="./assets/images/Illustrations/Group 238502.svg" alt="hero-img">
+                </div>
             </div>
-
-            <!-- service cards -->
-
-            <div class="service-cards">
-                  <div class="service-card-left">
-                        <img src="./assets/Icons/fast.svg" alt="fast-hosting" class="service-card-img">
-                        <h3 class="service-card-header">
-                              Faster hosting process
-                        </h3>
-                        <p class="service-card-para">
-                              We can speed up the creation of <br>your website, which is made <br>directly by the experts.
-                        </p>
-                  </div>
-                  <div class="service-card-center">
-                        <img src="./assets/Icons/signal.svg"  alt="speed to accedd faster" class="service-card-img">
-                        <h3 class="service-card-header center-h3">
-                              Speed to access faster
-                        </h3>
-                        <p class="service-card-para center-para">
-                              Excellent network<br> infrastructure and hardware to <br>support fast and stable access.
-                        </p>
-                  </div>
-                  <div class="service-card-right">
-                        <img src="./assets/Icons/heart.svg"  alt="faster service 24/7" class="service-card-img">
-                        <h3 class="service-card-header">
-                              Faster service 24/7
-                        </h3>
-                        <p class="service-card-para">
-                              We have a response time of less <br>than 150 seconds, available 24<br> hours a day.
-                        </p>
-                  </div>
+        </section>
+        <section class="company-logo">
+            <div class="container max-width">
+                <img src="./assets/images/Logo-light.svg" alt="c-logo" class="company-logo">
+                <img src="./assets/images/Logo-light.svg" alt="c-logo" class="company-logo">
+                <img src="./assets/images/Logo-light.svg" alt="c-logo" class="company-logo">
+                <img src="./assets/images/Logo-light.svg" alt="c-logo" class="company-logo">
             </div>
+        </section>
 
-
-            <!-- We are ready -->
-            <div class="hero-2">
-                  
-                  <h2 class="dropdown-title">
-                        We are ready to support your business <br> needs to be more advanced
-                  </h2>
-                  
-                  <div class="main-features">
-                        <div class="main-features-left">
-                              <a href="#" class="features-active">Our main features <img src="./assets/Icons/Group 238511.svg" class="features-img"></a>
-                              <a href="#" class="features">Speed optimization <img src="./assets/Icons/Group 238512.svg" class="features-img"></a>
-                              <a href="#" class="features">Downtime and security optimization <img src="./assets/Icons/Group 238512.svg" class="features-img-2"></a>
-                              <a href="#" class="features">Additional features <img src="./assets/Icons/Group 238512.svg" class="features-img"></a>
-                              <a href="#" class="features">Best technical support service<img src="./assets/Icons/Group 238512.svg" class="features-img-2"></a>
-                        </div>
-                        <div class="main-features-right">
-                              <a href="#" class="sub-features-active">Number of Websites</a>
-                              <a href="#" class="sub-features">Number of Email Accounts</a>
-                              <a href="#" class="sub-features">Unlimited MySQL Databases</a>
-                              <a href="#" class="sub-features">Unlimimted Bandwidth</a>
-                              <a href="#" class="sub-features">Unlimited Sub and Parked Domains</a>
-                              <a href="#" class="sub-features">30 Days Unconditional Guarentee</a>
-                              <a href="#" class="sub-features">Free Domain</a>
-                              <a href="#" class="sub-features">Disk Space</a>
-
-                        </div>
-                  </div>
+        <section class="service">
+            <div class="heading max-width">
+                <h1>
+                    The best service especially for you
+                </h1>
+                <p>
+                    We will serve as you best we can with the aim of providing satsfaction to you.
+                </p>
             </div>
-      </div>
-
-      <!-- Hosting your website -->
-      <div class="hosting-web">
-            <div class="hosting-web-header">
-                  <img src="./assets/Icons/arrow-left.svg" class="arrow-left">
-                  <h2 class="hosting-web-title">
-                        Hosting your website with the<br> services we provide
-                  </h2>
-                  <img src="./assets/Icons/arrow-right.svg" class="arrow-right">
+            <div class="container max-width">
+                <div class="items">
+                    <img src="./assets/images/Icons/fast.svg" alt="fast">
+                    <h1>Faster hosting process</h1>
+                    <p>We can speed of the creation of you website, which is made directly by the experts.</p>
+                </div>
+                <div class="items">
+                    <img src="./assets/images/Icons/signal.svg" alt="signal">
+                    <h1>Speed to access faster</h1>
+                    <p>Excellent network infrastructure and hardware to support fast and stable access.</p>
+                </div>
+                <div class="items">
+                    <img src="./assets/images/Icons/heart.svg" alt="heart">
+                    <h1>Faster service 24/7</h1>
+                    <p>We have a response time of less than 150 seconds, available 24 hours a day</p>
+                </div>
             </div>
-            <div class="splash-cards">
-                  <div class="splash-cards-left">
-                        <h4 class="splash-cards-header">Regular</h4>
-                        <h2 class="splash-cards-doller">$8,9<span class="splash-cards-span">/month</span></h2>
-                        <p>Suitable for you who will build a website <br>and others.</p>
-                        <hr><br>
-                        <p><img src="./assets/Icons/blue-tick.svg">Up to 16,000 visitors per month</p>
-                        <p><img src="./assets/Icons/blue-tick.svg">500MB SSD Disk Space</p>
-                        <p><img src="./assets/Icons/blue-tick.svg">Unlimited Bandwidth</p>
-                        <p><img src="./assets/Icons/blue-tick.svg">Unlimited Databases</p>
-                        <p><img src="./assets/Icons/blue-tick.svg">Instant Backup</p>
-                        <p><img src="./assets/Icons/blue-tick.svg">1 Emain Account</p>
-                        <p><img src="./assets/Icons/blue-tick.svg">1 Domain</p><br>
-                        <a href="#" class="select">Select</a>
-                  </div>
-                  <div class="splash-cards-center">
-                        <h4 class="splash-cards-header">Standard</h4>
-                        <h2 class="splash-cards-doller">$12,98<span class="splash-cards-span">/month</span></h2>
-                        <p>Suitable for business, such as a <br>website or management system for complaints.</p>
-                        <hr><br>
-                        <p><img src="./assets/Icons/white-tick.svg">Up to 36,000 visitors per month</p>
-                        <p><img src="./assets/Icons/white-tick.svg">Unlimited SSD Disk Space</p>
-                        <p><img src="./assets/Icons/white-tick.svg">Unlimited Bandwidth</p>
-                        <p><img src="./assets/Icons/white-tick.svg">Unlimited Databases</p>
-                        <p><img src="./assets/Icons/white-tick.svg">Instant Backup</p>
-                        <p><img src="./assets/Icons/white-tick.svg">Unlimimted Account</p>
-                        <p><img src="./assets/Icons/white-tick.svg">Unlimimted Addon Domain</p><br>
-                        <a href="#" class="select-center">Select</a>
-                  </div>
-                  <div class="splash-cards-right">
-                        <h4 class="splash-cards-header">Premium</h4>
-                        <h2 class="splash-cards-doller">$19,99<span class="splash-cards-span">/month</span></h2>
-                        <p>Suitable for those of you who need <br>special physical server performance <br>and security</p>
-                        <hr><br>
-                        <p><img src="./assets/Icons/blue-tick.svg">Up to 200,000 visitors per month</p>
-                        <p><img src="./assets/Icons/blue-tick.svg">Unlimited SSD Disk Space</p>
-                        <p><img src="./assets/Icons/blue-tick.svg">Unlimited Bandwidth</p>
-                        <p><img src="./assets/Icons/blue-tick.svg">Unlimited Databases</p>
-                        <p><img src="./assets/Icons/blue-tick.svg">Instant Backup</p>
-                        <p><img src="./assets/Icons/blue-tick.svg">Unlimimted Account</p>
-                        <p><img src="./assets/Icons/blue-tick.svg">Free Domain</p><br>
-                        <a href="#" class="select">Select</a>
-                  </div>
+        </section>
+
+        <section class="features max-width">
+            <div class="heading">
+                <h1>We are ready to support your business needs to be more advanced</h1>
             </div>
+            <div class="container">
+                <ul class="list list-1">
+                    <li>
+                        <span>Our main features</span>
+                        <img src="./assets/images/Icons/Group 238511.svg" alt="">
+                    </li>
+                    <li>
+                        <span>Speed optimization</span>
+                        <img src="./assets/images/Icons/Group 238512.svg" alt="">
+                    </li>
+                    <li>
+                        <span>Downtime and security optimization</span>
+                        <img src="./assets/images/Icons/Group 238512.svg" alt="">
+                    </li>
+                    <li>
+                        <span>Additional features</span>
+                        <img src="./assets/images/Icons/Group 238512.svg" alt="">
+                    </li>
+                    <li>
+                        <span>Best technical support service</span>
+                        <img src="./assets/images/Icons/Group 238512.svg" alt="">
+                    </li>
+                </ul>
 
-      </div>
+                <ul class="list list-2">
+                    <li>
+                        <span>Number of Websites</span>
+                    </li>
+                    <li>
+                        <span>Number of Email Accounts</span>
+                    </li>
+                    <li>
+                        <span>Unlimited MySQL Databases</span>
+                    </li>
+                    <li>
+                        <span>Unlimited Bandwidth</span>
+                    </li>
+                    <li>
+                        <span>Unlimited Sub & Parked Domains</span>
+                    </li>
+                    <li>
+                        <span>30 Days Unconditional Guarantee</span>
+                    </li>
+                    <li>
+                        <span>Free Domain</span>
+                    </li>
+                    <li>
+                        <span>
+                            Disk Space
+                        </span>
+                    </li>
+                </ul>
+            </div> 
+        </section>
 
-      <!-- Customer Review -->
-      <div class="customer-review">
-            <div class="customer-review-top">
-                  <h2>What do our<br> customers say?</h2>
-                  <p class="customer-review-para">You will definitely be surprised how our customers<br> comment on what we do so well. because we really<br> prioritize the satisfaction of our customers. </p>
+        <section class="price">
+            <div class="heading max-width">
+                <h1>Hosting your website with the<br>services we provide</h1>
             </div>
+            <div class="container max-width">
 
-      </div>
+                <div class="item item-1">
+                    <h2>Regular</h2>
+                    <h1>$8<span>/month</span></h1>
+                    <p>Suitable for you who will build a website and others.</p>
+                    <div class="line"></div>
+                    <ul class="list">
+                        <li>
+                            <img src="./assets/images/Icons/blue-tick.svg" alt="blue">
+                            <span>Up to 16,000 Visitors/Month</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/Icons/blue-tick.svg" alt="blue">
+                            <span>500mb SSD Disk Space</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/Icons/blue-tick.svg" alt="blue">
+                            <span>Unlimited Bandwidth</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/Icons/blue-tick.svg" alt="blue">
+                            <span>Unlimited Databases</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/Icons/blue-tick.svg" alt="blue">
+                            <span>Instant Backup</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/Icons/blue-tick.svg" alt="blue">
+                            <span>1 Email Account</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/Icons/blue-tick.svg" alt="blue">
+                            <span>1 Domain</span>
+                        </li>
+                    </ul>
 
+                    <button class="btn btn-primary">
+                        Select
+                    </button>
+                </div>
 
-      <!-- Footer -->
-      <div class="sign-up">
-            <h2 class="sign-up-header">
-                  Sign up now for as much hosting and <br>domain as you want for $20.99/year
-            </h2>
-            <form action="#" method="post" class="form">
-                  <input type="text" id="fname" placeholder="Name">
-                  <input type="email" id="email" placeholder="E-mail Address">
-                  <input type="password" id="password" placeholder="Password">
-                  <input type="submit" value="Sign Up" class="sub-btn">
-            </form>
-            <hr class="hr-tag">
-            <div class="footer-list">
-                  <div>
-                        <ul>
-                              <h4>
-                                    Company
-                              </h4>
-                              <li>About Us</li>
-                              <li>Contact Us</li>
-                              <li>Carier</li>
-                              <li>Blog</li>
-                        </ul>
-                  </div>
-                  <div>
-                        <ul>
-                              <h4>
-                                    Features
-                              </h4>
-                              <li>Domain</li>
-                              <li>Hosting</li>
-                              <li>WordPress</li>
-                              <li>Web security</li>
-                        </ul>
-                  </div>
-                  <div>
-                        <ul>
-                              <h4>
-                              Help
-                              </h4>
-                              <li>Payment Method</li>
-                              <li>Know Ledgebase</li>
-                              <li>Tutorials</li>
-                        </ul>
-                  </div>
-                  <div>
-                        <ul>
-                              <h4>
-                                    Social Media
-                              </h4>
-                              <li>Instagram</li>
-                              <li>Twitter</li>
-                              <li>Facebook</li>
-                              <li>Youtube</li>
-                        </ul>
-                  </div>
+                <div class="item item-2">
+                    <h2>Standard</h2>
+                    <h1>$12.98<span>/month</span></h1>
+                    <p>Suitable for business, such as a website or management system for compliments.</p>
+                    <div class="line"></div>
+                    <ul class="list">
+                        <li>
+                            <img src="./assets/images/Icons/white-tick.svg" alt="white-tick">
+                            <span>Up to 16,000 Visitors/Month</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/Icons/white-tick.svg" alt="white-tick">
+                            <span>500mb SSD Disk Space</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/Icons/white-tick.svg" alt="white-tick">
+                            <span>Unlimited Bandwidth</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/Icons/white-tick.svg" alt="white-tick">
+                            <span>Unlimited Databases</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/Icons/white-tick.svg" alt="white-tick">
+                            <span>Instant Backup</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/Icons/white-tick.svg" alt="white-tick">
+                            <span>1 Email Account</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/Icons/white-tick.svg" alt="white-tick">
+                            <span>1 Domain</span>
+                        </li>
+                    </ul>
+
+                    <button class="btn btn-primary">
+                        Select
+                    </button>
+                </div>
+
+                <div class="item item-3">
+                    <h2>Premium</h2>
+                    <h1>$19.99<span>/month</span></h1>
+                    <p>Suitable for those of you who need special physical server performance and security.</p>
+                    <div class="line"></div>
+                    <ul class="list">
+                        <li>
+                            <img src="./assets/images/Icons/blue-tick.svg" alt="blue">
+                            <span>Up to 16,000 Visitors/Month</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/Icons/blue-tick.svg" alt="blue">
+                            <span>500mb SSD Disk Space</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/Icons/blue-tick.svg" alt="blue">
+                            <span>Unlimited Bandwidth</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/Icons/blue-tick.svg" alt="blue">
+                            <span>Unlimited Databases</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/Icons/blue-tick.svg" alt="blue">
+                            <span>Instant Backup</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/Icons/blue-tick.svg" alt="blue">
+                            <span>1 Email Account</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/Icons/blue-tick.svg" alt="blue">
+                            <span>1 Domain</span>
+                        </li>
+                    </ul>
+
+                    <button class="btn btn-primary">
+                        Select
+                    </button>
+                </div>
+
             </div>
-            <hr class="hr-tag">
-            <img src="./assets/Logo.svg" class="footer-logo">
+        </section>
 
-      </div>
+        <section class="feedback">
+            <div class="heading max-width">
+                <h1>What do our<br>customers say?</h1>
+                <p>You will definitely be suprised how our customers comment on what we do so well. beacuse we really
+                    priotirize the satsfaction of our customers.</p>
+            </div>
+            <div class="container max-width">
+
+                <div class="items">
+                    <div class="quote">
+                        <img src="./assets/images/Icons/vuesax/bulk/vuesax/bulk/Vector.svg" alt="">
+                        <img src="./assets/images/Icons/vuesax/bulk/vuesax/bulk/Vector-1.svg" alt="">
+                    </div>
+                    <div class="name">
+                        <h3>Slamet Wijaya</h3>
+                        <span>CEO Tokped</span>
+                    </div>
+                    <p>Web hosting that i highly recommend beacuse the service provided is very good, hosting is fast so
+                        with a pretty fantastic speed.</p>
+                    <div class="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                    </div>
+                </div>
+
+                <div class="items">
+                    <div class="quote">
+                        <img src="./assets/images/Icons/vuesax/bulk/vuesax/bulk/Vector.svg" alt="">
+                        <img src="./assets/images/Icons/vuesax/bulk/vuesax/bulk/Vector-1.svg" alt="">
+                    </div>
+                    <div class="name">
+                        <h3>Slamet Wijaya</h3>
+                        <span>CEO Tokped</span>
+                    </div>
+                    <p>Web hosting that i highly recommend beacuse the service provided is very good, hosting is fast so
+                        with a pretty fantastic speed.</p>
+                    <div class="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                    </div>
+                </div>
+
+                <div class="items">
+                    <div class="quote">
+                        <img src="./assets/images/Icons/vuesax/bulk/vuesax/bulk/Vector.svg" alt="">
+                        <img src="./assets/images/Icons/vuesax/bulk/vuesax/bulk/Vector-1.svg" alt="">
+                    </div>
+                    <div class="name">
+                        <h3>Slamet Wijaya</h3>
+                        <span>CEO Tokped</span>
+                    </div>
+                    <p>Web hosting that i highly recommend beacuse the service provided is very good, hosting is fast so
+                        with a pretty fantastic speed.</p>
+                    <div class="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                    </div>
+                </div>
+
+                <div class="items">
+                    <div class="quote">
+                        <img src="./assets/images/Icons/vuesax/bulk/vuesax/bulk/Vector.svg" alt="">
+                        <img src="./assets/images/Icons/vuesax/bulk/vuesax/bulk/Vector-1.svg" alt="">
+                    </div>
+                    <div class="name">
+                        <h3>Slamet Wijaya</h3>
+                        <span>CEO Tokped</span>
+                    </div>
+                    <p>Web hosting that i highly recommend beacuse the service provided is very good, hosting is fast so
+                        with a pretty fantastic speed.</p>
+                    <div class="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                    </div>
+                </div>
+
+                <div class="items">
+                    <div class="quote">
+                        <img src="./assets/images/Icons/vuesax/bulk/vuesax/bulk/Vector.svg" alt="">
+                        <img src="./assets/images/Icons/vuesax/bulk/vuesax/bulk/Vector-1.svg" alt="">
+                    </div>
+                    <div class="name">
+                        <h3>Slamet Wijaya</h3>
+                        <span>CEO Tokped</span>
+                    </div>
+                    <p>Web hosting that i highly recommend beacuse the service provided is very good, hosting is fast so
+                        with a pretty fantastic speed.</p>
+                    <div class="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                        <img src="./assets/images/Icons/Star.svg" alt="star">
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container max-width">
+                <div class="heading">
+                    <h1>Sign up now for as much hosting and domain as you want for $20.99/year</h1>
+                </div>
+                <form>
+                    <input type="text" class="name" placeholder="Name">
+                    <input type="email" name="email" class="email" placeholder="Email Address">
+                    <input type="password" name="password" placeholder="Password" class="password">
+                    <button class="btn btn-primary">
+                        Sign Up
+                    </button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="line max-width"></div>
+        <div class="container max-width">
+
+            <ul class="list">
+                <h1>Company</h1>
+                <li>
+                    <a href="#">
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Contact us
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Carier
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Blog
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="list">
+                <h1>Features</h1>
+                <li>
+                    <a href="#">
+                        Domain
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Hosting
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Wordpress
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Web Security
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="list">
+                <h1>Help</h1>
+                <li>
+                    <a href="#">
+                        Payment method
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        know Ledgebase
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Tutorials
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="list">
+                <h1>Social media</h1>
+                <li>
+                    <a href="#">
+                        Instagram
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Twitter
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Facebook
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Youtube
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="line max-width"></div>
+        <img src="./assets/images/Logo.svg" alt="logo" class="logo max-width logo-bottom">
+
+    </footer>
 </body>
+
 </html>
